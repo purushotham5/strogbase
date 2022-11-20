@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>C Language</title>
-    <link rel="stylesheet" href="c.css" />
+    <title>Java Language</title>
+    <link rel="stylesheet" href="java.css" />
     <!-- bootstrap cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
@@ -27,32 +27,11 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
     <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
 
 </head>
 
 <body>
-
-    <!------------------------------------------------------------------Demo Video-------------------------------------------------------------------->
-    <div class="demo-video" id="video-1">
-        <div class="container-fluid">
-            <div class="video-btn">
-                <button type="button" onclick="Play()">Play</button>
-            </div>
-            <div class="btnn">
-                <i class="fa fa-close" onclick="VideoClose()"></i>
-            </div>
-            <div class="row">
-                <div class="col-md-9">
-                    <video autoplay controls id="video-id">
-                        <source width="100% " height="100% " src="intros\cintro.mp4">
-                    </video>
-                </div>
-            </div>
-
-        </div>
-    </div>
     <!-----------------------------------------------------dropdown comtac-box----------------->
     <div class="contact-box">
         <div class="container-fluid" id="contact-page">
@@ -65,10 +44,10 @@
                         <h2>Contact</h2>
                         <span class="mb-4">Contact to this bellow details after enrolled the course succesfully</span>
                         <!----  <div class="contact-icons">
-                            <i class="fa fa-phone " aria-hidden="true "></i>
-                            <i class="fa fa-instagram " aria-hidden="true "></i>
-                            <i class="fa fa-envelope " aria-hidden="true "></i>git
-                    </div>                            ---->
+                        <i class="fa fa-phone " aria-hidden="true "></i>
+                        <i class="fa fa-instagram " aria-hidden="true "></i>
+                        <i class="fa fa-envelope " aria-hidden="true "></i>
+                </div>                            ---->
 
                     </div>
                     <div>
@@ -84,7 +63,7 @@
                         </p>
                     </div>
                     <div class="pay-btn">
-                        <div class="razorpay-embed-btn" data-url="https://rzp.io/l/CLanguage" data-text="Pay Now" data-color="#528FF0" data-size="medium">
+                        <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_Kf3iSXnsoliL3i/view" data-text="Pay Now" data-color="#528FF0" data-size="medium">
                             <script>
                                 (function() {
                                     var d = document;
@@ -105,8 +84,26 @@
 
                     </div>
                 </div>
-
             </div>
+        </div>
+    </div>
+    <!------------------------------------------------------------------Demo Video-------------------------------------------------------------------->
+    <div class="demo-video" id="video-1">
+        <div class="container-fluid">
+            <div class="video-btn">
+                <button type="button" onclick="Play()">Play</button>
+            </div>
+            <div class="btnn">
+                <i class="fa fa-close" onclick="VideoClose()"></i>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <video controls id="video-id">
+                        <source width="100% "height="100% "src="intros\java intro.mp4">
+                    </video>
+                </div>
+            </div>
+
         </div>
     </div>
     <div id="total">
@@ -115,6 +112,7 @@
                 <div class="btn ">
                     <i class="fa fa-bars " onclick="OpenMenuPage()" id="menu-icon"></i>
                 </div>
+
                 <a href="javascript:void(0)" class="logo">StrongBase</a>
             </nav-bg>
             <navgiation id="nav-id">
@@ -125,9 +123,9 @@
                     </div>
                     <ul>
                         <li><a href="#home " class="active ">Home</a></li>
+                        <li><a href="c.html">C Language</a></li>
                         <li><a href="c++.html">C++</a></li>
                         <li><a href="python.html">Python</a></li>
-                        <li><a href="java.html">Java</a></li>
                         <li><a href="frontend.html">Front-End-Dev</a></li>
                         <li><a href="js.html">JavaScript</a></li>
                         <li><a href="css.html">CSS</a></li>
@@ -136,9 +134,9 @@
                 </nav>
             </navgiation>
 
-            <div class="container-start ">
-                <div class="row ">
-                    <div class="col-8 " data-aos="fade-right " data-aos-duration="1500 ">
+            <div class="container-start">
+                <div class="row">
+                    <div class="col-8" data-aos="fade-right" data-aos-duration="1500">
                         <div class="total-content-in-this-container ">
                             <div class="welcome-message-to-the-users ">
                                 <h1>Hi!,
@@ -147,12 +145,12 @@
                             </div>
                             <div class="content-start ">
                                 <h2>Welcome to our
-                                    <span>" C " Language</span>
+                                    <span>" JAVA " Language</span>
                                 </h2>
-                                <p>Learn C Language: The Complete Python Programming Course Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!
+                                <p>Learn JAVA Language: The Complete JAVA Programming Course Learn A-Z everything about JAVA, from the basics, to advanced topics like JAVA GUI, and more!
                                 </p>
                                 <div class="buttons-and-mails ">
-                                    <a href="#" class="me-5 " id="explore-buttonn" onclick="OpenContactPage() ">Enroll Courses</a>
+                                    <a href="#courses " class="me-5 " id="explore-buttonn" onclick="OpenContactPage() ">Enroll Courses</a>
                                     <a href="index.html " class="me-5 " id="explore-button">
                                         <i class="fa fa-mail-reply-all "></i> Back
                                     </a>
@@ -161,7 +159,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 " data-aos="fade-left " data-aos-duration="1500 ">
+                    <div class="col-4" data-aos="fade-left" data-aos-duration="1500">
                         <div class="poster">
                             <img name="slider">
                         </div>
@@ -228,8 +226,8 @@
                             <div class="course-content ">
                                 <h3>Course Content</h3>
                                 <div class="course-syllabus ">
-                                    <a href="c-syllabus.html.html " download><img src="https://3.bp.blogspot.com/-lp4zcwZAB3Y/WH3bbHCX3BI/AAAAAAAAYxw/btq-auxKQcMImizxJy59EOdGR2g3k66fACLcB/s1600/Syllabus%2BLogo.png "></a>
-                                    <a href="c-syllabus.html.html " style="height: 100; " download><img src="https://tse2.mm.bing.net/th?id=OIP.Va7YCiJ7QUfHVY9Q8wReRwHaFj&pid=Api&P=0 "></a>
+                                    <a href="#" download><img src="https://3.bp.blogspot.com/-lp4zcwZAB3Y/WH3bbHCX3BI/AAAAAAAAYxw/btq-auxKQcMImizxJy59EOdGR2g3k66fACLcB/s1600/Syllabus%2BLogo.png "></a>
+                                    <a href="#" style="height: 100; " download><img src="https://tse2.mm.bing.net/th?id=OIP.Va7YCiJ7QUfHVY9Q8wReRwHaFj&pid=Api&P=0 "></a>
                                 </div>
                             </div>
                         </div>
@@ -259,26 +257,22 @@
                         <div class="row2 ">
                             <div class="Instructors ">
                                 <h3>Instructors</h3>
-                                <h4>Avinash Jain</h4>
+                                <h4>Akansh Raj </h4>
                                 <h5>Teaching 5000+ Students how to code</h5>
                                 <div class="profile-card ">
                                     <div class="profile-photo ">
-                                        <img src="https://img-b.udemycdn.com/user/200_H/10260436_946b_6.jpg ">
+                                        <img src="https://m.media-amazon.com/images/M/MV5BMWY4NmY5NDYtNmFiMy00NThhLWE1MTUtZjVkMzkwZThlN2U3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg">
                                     </div>
                                     <div class="profile-details ">
                                         <honner>
                                             <li>
-                                                <span class="fa fa-star checked "></span> 4.4 Instructor Rating
-                                            </li>
+                                                <span class="fa fa-star checked "></span> 4.4 Instructor Rating</li>
                                             <li>
-                                                <span class="fa fa-signal "></span> 5,345 Reviews
-                                            </li>
+                                                <span class="fa fa-signal "></span> 5,345 Reviews</li>
                                             <li>
-                                                <span class="fa fa-group "></span> 2000 Students
-                                            </li>
+                                                <span class="fa fa-group "></span> 2000 Students</li>
                                             <li>
-                                                <span class="fa fa-play-circle "></span> 5 Courses
-                                            </li>
+                                                <span class="fa fa-play-circle "></span> 5 Courses</li>
                                         </honner>
                                     </div>
                                 </div>
@@ -302,62 +296,9 @@
                             <div class="teach-ratting ">
                                 <div class="ratting-card ">
                                     <div class="card-opt ">
-                                        <h1>AK</h1>
+                                        <h1>VC</h1>
                                         <div class="name-ratting ">
-                                            <h2>Amith K</h2>
-                                            <div class="rate ">
-                                                <span class="fa fa-star checked " style="color:orange "></span>
-                                                <span class="fa fa-star checked " style="color:orange "></span>
-                                                <span class="fa fa-star checked " style="color:orange "></span>
-                                                <span class="fa fa-star checked " style="color:orange "></span>
-                                                <span class="fa fa-star checked " style="color:orange "></span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <p>The course is good no doubt, the pace is fabulous as well. However it'll be nice if the content is updated as per the recent changes especially with regards to the the lectures where we have to scrub the data off of
-                                        a URL since the source code(s) have now been changed.</p>
-                                    </p>
-                                </div>
-                                <div class="ratting-card ">
-                                    <div class="card-opt ">
-                                        <h1>SG</h1>
-                                        <div class="name-ratting ">
-                                            <h2>Sweetha G</h2>
-                                            <div class="rate ">
-                                                <span class="fa fa-star checked " style="color:orange "></span>
-                                                <span class="fa fa-star checked " style="color:orange "></span>
-                                                <span class="fa fa-star checked " style="color:orange "></span>
-                                                <span class="fa fa-star checked " style="color:orange "></span>
-                                                <span class="fa fa-star checked " style="color:orange "></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p>It was well presented and easy to follow and understand.In depth concepts of python have been clearly explained. Good chemistry between student and instructor. Fantastic course. Completed every vid and had lot of fun
-
-                                </div>
-                                <div class="ratting-card ">
-                                    <div class="card-opt ">
-                                        <h1>TC</h1>
-                                        <div class="name-ratting ">
-                                            <h2>Tanish C</h2>
-                                            <div class="rate ">
-                                                <span class="fa fa-star checked " style="color:orange "></span>
-                                                <span class="fa fa-star checked " style="color:orange "></span>
-                                                <span class="fa fa-star checked " style="color:orange "></span>
-                                                <span class="fa fa-star checked " style="color:orange "></span>
-                                                <span class="fa fa-star checked " style="color:orange "></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p>damn basic for beginners. will help you to clear out your all concepts with great examples.It was well presented and easy to follow and understand.
-                                    </p>
-                                </div>
-                                <div class="ratting-card ">
-                                    <div class="card-opt ">
-                                        <h1>MC</h1>
-                                        <div class="name-ratting ">
-                                            <h2>Mouni C</h2>
+                                            <h2>Vani C</h2>
                                             <div class="rate ">
                                                 <span class="fa fa-star checked " style="color:orange "></span>
                                                 <span class="fa fa-star checked " style="color:orange "></span>
@@ -373,11 +314,26 @@
                                 </div>
                                 <div class="ratting-card ">
                                     <div class="card-opt ">
-                                        <h1>HT</h1>
+                                        <h1>HC</h1>
                                         <div class="name-ratting ">
-                                            <h2>Harish T</h2>
+                                            <h2>Harsha C</h2>
                                             <div class="rate ">
                                                 <span class="fa fa-star checked " style="color:orange "></span>
+                                                <span class="fa fa-star checked " style="color:orange "></span>
+                                                <span class="fa fa-star checked " style="color:orange "></span>
+                                                <span class="fa fa-star checked " style="color:orange "></span>
+                                                <span class="fa fa-star checked " style="color:orange "></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>damn basic for beginners. will help you to clear out your all concepts with great examples.It was well presented and easy to follow and understand.</p>
+                                </div>
+                                <div class="ratting-card ">
+                                    <div class="card-opt ">
+                                        <h1>VT</h1>
+                                        <div class="name-ratting ">
+                                            <h2>Varun Tej T</h2>
+                                            <div class="rate ">
                                                 <span class="fa fa-star checked " style="color:orange "></span>
                                                 <span class="fa fa-star checked " style="color:orange "></span>
                                                 <span class="fa fa-star checked " style="color:orange "></span>
@@ -388,11 +344,47 @@
                                     <p>i can't say as i have not taken that many classes yet but so far it is good. edited( so yeah it was a journey for me many things happen but i am glad they did and also grateful to the person who is guiding me and thanks
                                         udemy for these courses really appreciate it !!!)</p>
                                 </div>
+                                <div class="ratting-card ">
+
+                                    <div class="card-opt ">
+                                        <h1>RC</h1>
+                                        <div class="name-ratting ">
+                                            <h2>Raju C</h2>
+                                            <div class="rate ">
+                                                <span class="fa fa-star checked " style="color:orange "></span>
+                                                <span class="fa fa-star checked " style="color:orange "></span>
+                                                <span class="fa fa-star checked " style="color:orange "></span>
+                                                <span class="fa fa-star checked " style="color:orange "></span>
+                                                <span class="fa fa-star checked " style="color:orange "></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>It was well presented and easy to follow and understand.In depth concepts of python have been clearly explained. Good chemistry between student and instructor. Fantastic course. Completed every vid and had lot of fun
+
+                                    </p>
+                                </div>
+                                <div class="ratting-card ">
+                                    <div class="card-opt ">
+                                        <h1>RA</h1>
+                                        <div class="name-ratting ">
+                                            <h2>Rama A</h2>
+                                            <div class="rate ">
+                                                <span class="fa fa-star checked " style="color:orange "></span>
+                                                <span class="fa fa-star checked " style="color:orange "></span>
+                                                <span class="fa fa-star checked " style="color:orange "></span>
+                                                <span class="fa fa-star checked " style="color:orange "></span>
+                                                <span class="fa fa-star checked " style="color:orange "></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>The course is good no doubt, the pace is fabulous as well. However it'll be nice if the content is updated as per the recent changes especially with regards to the the lectures where we have to scrub the data off of
+                                        a URL since the source code(s) have now been changed.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <img class="gud-img " style="height: 95%;width: 48%;position: absolute;float: right;right: 0 " src="lap.gif">
+                        <img class="gud-img" style="height: 95%;width: 48%;position: absolute;float: right;right: 0 " src="file:///C:/Users/M%20DINESH/Desktop/classweb/web/lap1.webp">
                         <div class="demo-box ">
                             <div class="video-icon ">
                                 <i class="fa fa-play-circle " onclick="VideoOpen() "></i>
@@ -401,11 +393,6 @@
                         </div>
                         <div class="description-box ">
                             <h5 class="prize"><del>₹199</del> ₹99</h5>
-                            <!----    <button type="button " onclick="OpenContactPage() " class="buy-btn ">Buy Now</button>
-                            <form>
-                                <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_Kf44C1gaL94hr2" async>
-                                </script>
-                            </form>--->
                             <button type="button " onclick="OpenContactPage() " class="buy-btn ">Buy Now</button>
                         </div>
                         <!----   <hr style="background: black;height:2px;box-shadow:0 1px 5px 0.5px black ">--->
@@ -425,7 +412,8 @@
                                     <i class="fa fa-star "></i>
                                 </span>
                                 <span>
-                                    <i class="fas fa-star-half-alt " style="color:red; "></i>
+                                    <i class="fas fa-star-half-alt "
+                                        style="color:red; "></i>
                                 </span>
                             </div>
                             <div class="user-graph ">
@@ -435,28 +423,28 @@
                                         <div class="progress text-center ">
                                             <div class="progress-bar progress-bar-striped progress-bar-animated bg-success " style="width:95%; "></div>
                                         </div>
-                                        <span3>1k Star</span3>
+                                        <span3>6k Star</span3>
                                     </div>
                                     <div class="col-sm-12 ">
                                         <span2>4 Star</span2>
                                         <div class="progress text-center ">
                                             <div class="progress-bar progress-bar-striped progress-bar-animated bg-info " style="width:80%; "></div>
                                         </div>
-                                        <span3>5K Star</span3>
+                                        <span3>4K Star</span3>
                                     </div>
                                     <div class="col-sm-12 ">
                                         <span2>3 Star</span2>
                                         <div class="progress text-center ">
                                             <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning " style="width:45%; "></div>
                                         </div>
-                                        <span3>100 Star</span3>
+                                        <span3>30 Star</span3>
                                     </div>
                                     <div class="col-sm-12 ">
                                         <span2>2 Star</span2>
                                         <div class="progress text-center ">
                                             <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger " style="width:15%; "></div>
                                         </div>
-                                        <span3>10 Star</span3>
+                                        <span3>20 Star</span3>
                                     </div>
                                 </div>
                             </div>
@@ -517,7 +505,7 @@
         <script>
             AOS.init();
         </script>
-        <script src="c.js"></script>
+        <script src="java.js"></script>
         <script>
             AOS.init({
                 disable: function() {
