@@ -1373,7 +1373,8 @@ honner li {
     min-height: 100vh;
     max-width: 100%;
     background-color: red;
-    display: none;
+    display: none;position: fixed;
+    z-index: 1000;
 }
 
 .demo-video .container-fluid {
