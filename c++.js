@@ -97,3 +97,35 @@ function CloseContactPage() {
         founder.style.top = "-5000px"
     }
 }
+
+
+/*-----------------------------------------------------------------------this is for the demo video ---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+let gold = document.getElementById("video-1")
+
+function VideoOpen() {
+    let diamond
+    if (diamond == true) {
+        gold.style.display = "none"
+    } else {
+        gold.style.display = "block"
+        rose.style.display = "none"
+    }
+}
+let vi = document.getElementById("video-id")
+
+function VideoClose() {
+    let paltinum
+    if (paltinum == true) {
+        gold.style.display = "block"
+        rose.style.display = "none"
+    } else {
+        vi.pause()
+        gold.style.display = "none"
+        rose.style.display = "block"
+    }
+}
+
+function Play() {
+    vi.play()
+}
